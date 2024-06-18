@@ -27,4 +27,3 @@ The Customer Service Web Application is designed to help businesses manage custo
 - FastAPI
 - Uvicorn
 - Bootstrap (for styling)
-
