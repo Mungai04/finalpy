@@ -45,9 +45,9 @@ from typing import List
 
 app = FastAPI()
 
-# Add CORS middleware
+
 origins = [
-    "http://localhost:3000",  # React frontend
+    "http://localhost:3000",  
 ]
 
 app.add_middleware(
@@ -59,7 +59,7 @@ app.add_middleware(
 )
 
 class Customer(BaseModel):
-    id: int = None  # Make ID optional for creation
+    id: int = None  
     name: str
     email: str
     phone: str
